@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: black;
+    color: #2770bf;
+    height: 86px;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.first-ico {
+    width: 77px;
+    height: 77px;
+    position: relative;
+    top: 5px;
+    left: 38px;
+    cursor: pointer;
+}
+
+div h3 {
+    position: absolute;
+    top: 39PX;
+    left: 97px;
+    font-size: 26px;
+    font-family: 'Concert One', cursive;
+    cursor: pointer;
+}
+
+.first-ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 44px;
+    left: 32px;
+}
+
+.first-ul li {
+    list-style-type: none;
+    margin: 0px 18px;
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+
+}
+
+.first-ul li a {
+    text-decoration: none;
+}
+
+.first-ul li a:hover {
+    color: black;
+    transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.first-btn {
+    float: right;
+    position: relative;
+    bottom: 79px;
+    right: 22px;
+    color: white;
+    background-color: #f3223b;
+    border: none;
+    width: 148px;
+    height: 45px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+}
+
+.img-bg {
+    background-color: #1a5ca3;
+    height: 448px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.first-img {
+    float: right;
+    position: relative;
+    /* top: 3px; */
+    left: 146px;
+}
+
+.head-text-first {
+    font-size: 45px;
+    position: relative;
+    top: 112px;
+    left: 36px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.head-text-second {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 113px;
+    left: 36px;
+    font-size: 21px;
+    font-style: italic;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.second-btn {
+    height: 53px;
+    width: 202px;
+    position: relative;
+    top: 152px;
+    left: 37px;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    font-size: 23px;
+    background-color: #f1a400;
+    font-family: 'Concert One', cursive;
+}
+
+.nav {
+    bottom: 81px;
+}
+
+.third-btn {
+    border: none;
+    height: 70px;
+    width: 136px;
+    background-color: #1a5ca3;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Concert One', cursive;
+}
+
+.home-icon {
+    background: url('/Icons/Icon2.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 110px;
+    bottom: 60px;
+}
+
+.slide-text {
+    color: black;
+    font-size: 35px;
+}
+
+.slide-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    bottom: 116px;
+    bottom: 120px;
+    border-top: 1px solid rgb(255, 255, 255);
+
+}
+
+.slide {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: slide 32s linear infinite;
+    padding: 14px;
+    height: 41px;
+    background: linear-gradient(#ffa200, #e70f00);
+    z-index: -1;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.icon-bg {
+    height: 112px;
+    position: relative;
+    bottom: 251px;
+    background-color: black;
+    margin-bottom: -165px;
+}
+
+.li-img {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+}
+
+.second-ul {
+    display: flex;
+
+}
+
+.second-ul li {
+    list-style-type: none;
+    margin: 0px 55px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+
+
+.coupon-click {
+    scroll-behavior: smooth;
+}
+
+.coupon-click p {
+    color: black;
+    position: relative;
+    bottom: 74px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.coupon-click a {
+    text-decoration: none;
+}
+
+.section-coupon {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.coupon-head {
+    color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    top: 35px;
+    left: 27px;
+    font-size: 34px;
+}
+
+.coupon-head {
+    position: relative;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 467px;
+    height: 281px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    transition: 300ms;
+}
+
+.card:hover {
+    transform: rotate(3deg);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 27px;
+    border-radius: 7px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    background-color: rgb(18, 24, 38);
+    border: 1px solid white;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f0a000;
+    cursor: pointer;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+}
